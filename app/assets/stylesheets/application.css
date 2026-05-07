@@ -8,3 +8,23 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+ body {
+  color: white;
+  background-color: black;
+ }
+
+ a, a:visited {
+  color: white;
+  text-decoration: none;
+ }
+
+ a:hover, a:active {
+  color: goldenrod;
+ }
+
+ .container {
+  display: block;
+  width: 500px;
+  margin: auto;
+ }
